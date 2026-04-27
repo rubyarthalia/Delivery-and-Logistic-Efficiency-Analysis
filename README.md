@@ -82,8 +82,6 @@ olist-analysis/
 ├── README.md
 ├── notebook/
 │   └── LogisticAnalysis.ipynb
-├── data/
-│   └── combined_data 
 └── charts/
 │   └── all charts in PNG
 ```
