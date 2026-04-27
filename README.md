@@ -52,7 +52,7 @@ Only 7,292 orders arrived later than estimated. Given the conservative estimates
 1-star reviewers received orders averaging 6 days early. 5-star reviewers averaged 13 days early. Customers don't care how long delivery takes — they care whether it beat their expectation.
 
 **4. AM and MA are severe outliers**
-Amazonas (AM) has a ~33% late rate — 5× the national average. Maranhão (MA) follows at ~20%. All other states cluster below 8%. The problem is geographic, not systemic.
+Amazonas (AM) has a ~33% late rate, 5× the national average. Maranhão (MA) follows at ~20%. All other states cluster below 8%. The problem is geographic, not systemic.
 
 **5. Freight is expensive for low-value items**
 Median freight ratio is 23.2%. For items under BRL 50, freight often exceeds 40–50% of the product price — a real barrier for low-value purchases.
@@ -64,15 +64,15 @@ São Paulo accounts for ~40K orders — 3× more than second-place RJ (~12K). Th
 Monthly revenue grew from near zero in late 2016 to ~BRL 1M by November 2017, with a clear Black Friday spike. Revenue stabilized at ~BRL 850K–980K/month through 2018.
 
 **8. Health & beauty leads all categories; satisfaction is polarized**
-`health_beauty` tops revenue at ~BRL 1.25M. Review scores follow a J-curve — 57.9% give 5 stars, but 11.3% give 1 star, with little middle ground.
+`health_beauty` tops revenue at ~BRL 1.25M. Review scores follow a J-curve 57.9% give 5 stars, but 11.3% give 1 star, with little middle ground.
 
 ---
 
 ## Recommendations
 
-- **Fix AM/MA logistics** — partner with regional carriers or set longer estimated windows for northern states to reset expectations
-- **Reduce freight burden on low-value orders** — subsidize shipping or introduce minimum order thresholds for affordable categories
-- **Formalize the expectation-beating strategy** — set delivery estimates that are consistently beatable rather than just accurate; it's the cheapest lever for improving review scores
+- **Fix AM/MA logistics** —> partner with regional carriers or set longer estimated windows for northern states to reset expectations
+- **Reduce freight burden on low-value orders** —> subsidize shipping or introduce minimum order thresholds for affordable categories
+- **Formalize the expectation-beating strategy** —> set delivery estimates that are consistently beatable rather than just accurate; it's the cheapest lever for improving review scores
 
 ---
 
@@ -91,5 +91,4 @@ olist-analysis/
 ## What I Learned
 - Joining and cleaning 9 relational tables into one analysis-ready DataFrame
 - Engineering delivery and freight features from raw timestamps and prices
-- The most valuable insight (expectation-beating drives satisfaction) wasn't in the data directly — it emerged from combining delay and review score into one chart
-[LinkedIn](https://linkedin.com/in/yourprofile) · [Portfolio](https://ruby-arthalia-golden.vercel.app/) · [GitHub](https://github.com/yourusername)
+- The most valuable insight (expectation-beating drives satisfaction) wasn't in the data directly, it emerged from combining delay and review score into one chart
