@@ -29,11 +29,11 @@ Analysis of 96,304 delivered orders from Olist, Brazil's largest e-commerce mark
 
 **Key engineered features:**
 ```python
-master['delivery_delay_days']  = (order_delivered - order_estimated).dt.days
-master['actual_delivery_days'] = (order_delivered - order_purchase).dt.days
-master['processing_time_days'] = (carrier_date - order_purchase).dt.days
-master['freight_ratio']        = freight_value / price
-master['is_late']              = (delivery_delay_days > 0).astype(int)
+df_combined['delivery_delay_days']  = (order_delivered - order_estimated).dt.days
+df_combined['actual_delivery_days'] = (order_delivered - order_purchase).dt.days
+df_combined['processing_time_days'] = (carrier_date - order_purchase).dt.days
+df_combined['freight_ratio']        = freight_value / price
+df_combined['is_late']              = (delivery_delay_days > 0).astype(int)
 ```
 
 **Final shape: 110,645 rows × 29 columns → 96,304 unique delivered orders**
